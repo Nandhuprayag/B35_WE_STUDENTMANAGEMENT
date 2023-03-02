@@ -2,27 +2,102 @@
   text-align: center;
 }
 
+.home-style
+{
+  text-align:  center;
+  text-transform: capitalize;
+  height: 80vh;
+  background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=");
+}
+
+/* Tool bar style */
+
+.toolbar-style
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.2em;
+}
+
+
+/* notfoundpage styling */
+#notfound
+{ 
+  width: 100%;
+  height: 80vh;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
+/* list layout style */
+  .list-layout
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+    margin-top: 1em;
+  }
+/* list container style */
+  .list-container
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    border: 2px solid rgb(46, 48, 48);
+    border-radius: 1.2em;
+
+  }  
+
+  /* list specs style  */
+   .list-spec
+   {
+      text-align: center;
+   }  
+  
+   /* Addlist style */
+   .addlist-style
+   {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em;
+    border-radius: 14rem;
+   }
+
+
+ /* list poster style */
+ .list-poster
+ {
+  width: 300px;
+  border-radius: 2em;
+ }
+ /* list details styling */
+ .listdetails-style
+ {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+ }
+
+ /* btn style */
+
+  #btn-style
+  {
+    margin-left: 8em;
+  }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +111,5 @@
     transform: rotate(360deg);
   }
 }
+
+
